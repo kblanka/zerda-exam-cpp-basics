@@ -6,7 +6,7 @@ void multiplyvalue(float* pointer, float num) {
   float* sum;
   *sum = *pointer * num;
   cout << "The final value: " << *sum << endl;
-  cout << "Address of the final value: " << sum << endl;
+  cout << "Address of the final value: " << pointer << endl;
 }
 
 /*void multiplyvalue2(float* pointer, float num) {
@@ -27,7 +27,7 @@ void multiplyvalue(float* pointer, float num) {
 
 int main() {
   float total = 123;
-  float number = 5;
+  float number = 6;
   multiplyvalue (&total, number);
   return 0;
 }

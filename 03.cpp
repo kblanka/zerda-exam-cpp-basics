@@ -27,8 +27,7 @@ void multiplyvalue(float* pointer, float num) {
 
 int main() {
   float total = 123;
-  float number = 6;
+  float number = 5;
   multiplyvalue (&total, number);
   return 0;
 }
-
